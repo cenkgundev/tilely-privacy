@@ -41,7 +41,8 @@ footer a{color:var(--muted)} footer a[aria-current]{color:var(--fg);text-decorat
 <ul>
 <li><strong>App Store Privacy Label:</strong> "Data Not Collected" and "No Tracking".</li>
 <li><strong>No accounts or login:</strong> No registration, email address, or profile is required to use Tilely.</li>
-<li><strong>No third-party SDKs:</strong> Tilely includes zero third-party analytics, crash-reporting trackers, advertising networks, or behavioral profiling SDKs.</li>
+<li><strong>Zero third-party ad or tracking SDKs:</strong> Tilely includes zero advertising networks, IDFA trackers, or third-party behavioral profiling SDKs.</li>
+<li><strong>Optional Anonymous First-Party Diagnostics:</strong> To improve 3D models and fix crashes rapidly, Tilely collects strictly anonymous, non-linked product interaction events and Apple MetricKit crash/hang diagnostics using a random per-install UUID (EU Frankfurt server). Zero personal data, names, emails, or child information is ever collected, and you can opt out anytime in <strong>Settings &rarr; Anonymous Usage Insights</strong>.</li>
 <li><strong>No tracking:</strong> Tilely does not access the advertising identifier (IDFA) and never requests App Tracking Transparency permission.</li>
 </ul>
 
@@ -59,7 +60,7 @@ footer a{color:var(--muted)} footer a[aria-current]{color:var(--fg);text-decorat
 <h2>4. Camera &amp; Photo Picker access</h2>
 <ul>
 <li><strong>Camera (<code>NSCameraUsageDescription</code>):</strong> Requested only when you open the optional <strong>1:1 Tabletop AR Preview</strong> feature (Apple ARKit &amp; RealityKit). Live camera frames are processed strictly on-device in real time to detect flat surfaces and anchor 3D previews. Tilely never records, saves, or uploads camera video or images.</li>
-<li><strong>Photos (System <code>PhotosPicker</code>):</strong> When you add a finished build photo to your Build Journal or select a photo for on-device tile counting (Apple Vision), Tilely uses Apple's privacy-preserving system photo picker. Tilely does <strong>not</strong> request access to your full Photo Library and receives only the single photo you manually choose. All image processing happens 100% on-device.</li>
+<li><strong>Photos (System <code>PhotosPicker</code>):</strong> When you add a finished build photo to your Build Journal, Tilely uses Apple's privacy-preserving system photo picker. Tilely does <strong>not</strong> request access to your full Photo Library and receives only the single photo you manually choose. All image processing happens 100% on-device.</li>
 </ul>
 
 <h2>5. In-App Purchases &amp; Subscriptions</h2>
