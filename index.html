@@ -26,9 +26,9 @@ footer a{color:var(--muted)} footer a[aria-current]{color:var(--fg);text-decorat
 <main>
 <div class="top" role="group" aria-label="Language"><strong aria-current="page">EN</strong><a href="privacy-tr.html" hreflang="tr" lang="tr">TR</a></div>
 <h1>Tilely Privacy Policy</h1>
-<p class="muted">Effective date: 21 November 2026 · Bundle ID: <code>com.cenkgun.tilely</code></p>
+<p class="muted">Effective date: 25 November 2026 · Bundle ID: <code>com.cenkgun.tilely</code></p>
 
-<p>Tilely is an independent 3D magnetic tile building companion for iPhone and iPad designed for families, parents, and children with a strict <strong>privacy-by-design, 100% on-device</strong> architecture. The Tilely app does not collect, store on external servers, sell, rent, or share any personal data. We receive personal data only if you choose to contact us by email (section 6).</p>
+<p>Tilely is an independent 3D magnetic tile building companion for iPhone and iPad designed for families and parents with a <strong>privacy-by-design</strong> architecture. Your inventory, build journal, photos, and iCloud favorites stay strictly on your device and your private iCloud account. We do not collect personal data, require accounts, or track you across apps. To improve stability and product quality, Tilely collects strictly anonymous, non-personal product interaction, purchase-funnel, and crash diagnostic data (section 2), which can be disabled in Settings. We receive personal data only if you choose to contact us by email (section 6).</p>
 
 <p>This policy serves as the information notice required by Article 13 of the EU and UK General Data Protection Regulation (GDPR), Article 10 of Türkiye's Personal Data Protection Law No. 6698 (KVKK), the U.S. Children's Online Privacy Protection Act (COPPA), and U.S. state privacy laws including the California Consumer Privacy Act (CCPA/CPRA).</p>
 
@@ -37,13 +37,12 @@ footer a{color:var(--muted)} footer a[aria-current]{color:var(--fg);text-decorat
 <p>Contact: <a href="mailto:support@melyro.app">support@melyro.app</a></p>
 <p>Tilely is an independent app designed around standard 7.5 cm (3-inch) magnetic building tile geometry. Tilely is not affiliated with, sponsored by, or endorsed by any physical magnetic tile, building block, or toy manufacturer.</p>
 
-<h2>2. Summary: Zero data collection</h2>
+<h2>2. Summary: Anonymous Product Analytics Only (No Tracking)</h2>
 <ul>
-<li><strong>App Store Privacy Label:</strong> "Data Not Collected" and "No Tracking".</li>
-<li><strong>No accounts or login:</strong> No registration, email address, or profile is required to use Tilely.</li>
-<li><strong>Zero third-party ad or tracking SDKs:</strong> Tilely includes zero advertising networks, IDFA trackers, or third-party behavioral profiling SDKs.</li>
-<li><strong>Optional Anonymous First-Party Diagnostics:</strong> To improve 3D models and fix crashes rapidly, Tilely collects strictly anonymous, non-linked product interaction events and Apple MetricKit crash/hang diagnostics using a random per-install UUID (EU Frankfurt server). Zero personal data, names, emails, or child information is ever collected, and you can opt out anytime in <strong>Settings &rarr; Anonymous Usage Insights</strong>.</li>
-<li><strong>No tracking:</strong> Tilely does not access the advertising identifier (IDFA) and never requests App Tracking Transparency permission.</li>
+<li><strong>App Store Privacy Label:</strong> "Data Not Linked to You" (Product Interaction, Purchase History, Crash Data — Analytics &amp; App Functionality) and "No Tracking".</li>
+<li><strong>No accounts or personal data:</strong> No registration, name, email address, or profile is required or collected.</li>
+<li><strong>Privacy-safe anonymous analytics:</strong> Using a random, app-only anonymous install identifier (never shared across apps and never linked to your identity), Tilely sends anonymous usage events (e.g., builds viewed/completed, paywall/plan interactions, and crash logs) to our first-party database (Supabase) and EU-hosted product analytics (PostHog EU Cloud, Frankfurt) solely to fix crashes and improve the app. You can opt out anytime inside Settings.</li>
+<li><strong>No tracking or ads:</strong> Tilely contains zero advertising networks, zero data brokers, does not access the advertising identifier (IDFA), and never requests App Tracking Transparency permission.</li>
 </ul>
 
 <h2>3. Data stored exclusively on your device</h2>
@@ -60,7 +59,7 @@ footer a{color:var(--muted)} footer a[aria-current]{color:var(--fg);text-decorat
 <h2>4. Camera &amp; Photo Picker access</h2>
 <ul>
 <li><strong>Camera (<code>NSCameraUsageDescription</code>):</strong> Requested only when you open the optional <strong>1:1 Tabletop AR Preview</strong> feature (Apple ARKit &amp; RealityKit). Live camera frames are processed strictly on-device in real time to detect flat surfaces and anchor 3D previews. Tilely never records, saves, or uploads camera video or images.</li>
-<li><strong>Photos (System <code>PhotosPicker</code>):</strong> When you add a finished build photo to your Build Journal, Tilely uses Apple's privacy-preserving system photo picker. Tilely does <strong>not</strong> request access to your full Photo Library and receives only the single photo you manually choose. All image processing happens 100% on-device.</li>
+<li><strong>Photos (System <code>PhotosPicker</code>):</strong> When you add a finished build photo to your Build Journal or select a photo for on-device tile counting (Apple Vision), Tilely uses Apple's privacy-preserving system photo picker. Tilely does <strong>not</strong> request access to your full Photo Library and receives only the single photo you manually choose. All image processing happens 100% on-device.</li>
 </ul>
 
 <h2>5. In-App Purchases &amp; Subscriptions</h2>
